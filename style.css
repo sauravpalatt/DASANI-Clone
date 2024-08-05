@@ -1,0 +1,490 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    background-color: rgb(233, 233, 233);
+    align-items: flex-start;
+}
+
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+}
+
+.nav-bar{
+    padding: 2%;
+    display: flex;
+}
+
+.nav-bar ul{
+    margin-left: 5%;
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar li{
+    margin-left:40px ;
+}
+
+#iconperson{
+    margin-left: 650px;
+    font-size:x-large;
+    font-weight: lighter;
+}
+
+#iconperson:hover{
+    text-decoration:underline 3px;
+    text-underline-offset: 20px;
+}
+
+
+.dasanilogo{
+    position: relative;
+    margin-left: 45%;
+    margin-top: 02vh;
+    width: 10px;
+}
+
+.fixedtag{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: sticky;
+    top: 15%;
+    color: white;
+    display: flex;
+    background-color: rgb(73, 72, 72);
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+
+.fixedtag p{
+    margin: 10px;
+    align-items: center;
+}
+
+.home{
+    text-decoration: underline 3px;
+    text-underline-offset: 10px;
+    color: white;
+}
+
+.page1{
+    width: 100%;
+    height: 120%;
+}
+
+.page1img{
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.page2{
+    width: 100%;
+    height: 110%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.page2img{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(233, 233, 233);
+    overflow: auto;
+}
+
+.page2text{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(233, 233, 233);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.pgimg2{
+    margin-top: 3%;
+    margin-left: 15%;
+    background-color: white;
+    border-radius: 3%;
+}
+
+#headingpg2{
+    padding-top:10%;
+    margin-left: 20%;
+    font-weight: bolder;
+}
+
+.parapg2{
+    padding-top:5%;
+    margin-left: 20%;
+}
+
+#nutrition{
+    margin-top:10%;
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.shopnow{
+    margin: 10px;
+    left: 55%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.shopnow:hover{
+    background-color: rgb(189, 186, 186);
+}
+
+.page3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.page3img{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(233, 233, 233);
+    overflow: hidden;
+}
+
+.pgimg3{
+    margin-top: 3%;
+    margin-left: 12%;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.page3text{
+    padding-left: 3%;
+    padding-top: 5%;
+    position: absolute;
+    width: 35%;
+    height: 83%;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 2%;
+    left: 52%;
+    top: 263%;
+}
+
+#headingpg3{
+    padding-top:10%;
+    margin-left: 20%;
+    font-weight: bolder;
+}
+    
+.parapg3{
+    padding-top:5%;
+}
+
+.watchnow{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 60px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.watchnow:hover{
+    background-color: rgb(199, 199, 199);
+}
+
+.page4{
+    margin-top: 7%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+
+.page4img{
+    width: 45%;
+    height: 90%;
+}
+
+.pgimg4{
+    margin-left: 10%;
+    border-radius: 3%;   
+}
+
+.page4text{
+    width: 50%;
+    height: 90%;
+}
+
+.headingpg4{
+    margin-top: 30%;
+    margin-left: 20%;
+}
+
+.parapg4{
+    margin-top: 5%;
+    margin-left: 20%; 
+}
+
+.viewreport{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 15%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(233, 233, 233);
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.viewreport:hover{
+    background-color: rgb(199, 199, 199);
+}
+
+.page5{
+    width: 100%;
+    height: 100%;
+}
+
+.reviews{
+    width:100%;
+    display: flex;
+}
+
+.r1{
+    width: 35%;
+    height: 80%;
+    background-color: white;
+    font-size: larger;
+    margin-left: 10%;
+    padding: 50px;
+    padding-top: 20px;
+    border-radius: 5%;
+}
+
+.r2{
+    width: 35%;
+    height: 80%;
+    background-color: white;
+    margin-left: 3%;
+    padding: 50px;
+    font-size: larger;
+    padding-top: 20px;
+    border-radius: 5%;
+}
+
+.r3{
+    width: 35%;
+    height: 80%;
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 5%;
+    padding: 50px;
+    font-size: larger;
+    padding-top: 20px;
+    border-radius: 5%;
+}
+
+.textbox{
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-top: 5%;
+    left: 10%;
+    padding: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    border-radius: 20px;
+}
+
+#textboxtext{
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.endlogo{
+    margin-top: 1%;
+    margin-left: 585px;
+    padding-left: 2px;
+    margin-right: 15px;
+    font-size: 20px;
+    
+}
+
+.ri-instagram-line{
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.ri-instagram-line:hover{
+    background-color: rgb(177, 177, 177);
+}
+
+.ri-twitter-x-line{
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    padding: 5px;
+    margin-right: 5px;  
+}
+
+.ri-twitter-x-line:hover{
+    background-color: rgb(177, 177, 177);
+}
+
+.ri-facebook-fill{
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.ri-facebook-fill:hover{
+    background-color: rgb(177, 177, 177);
+}
+
+.ri-youtube-line{
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    padding: 5px;
+    margin-right: 5px;   
+}
+
+.ri-youtube-line:hover{
+    background-color: rgb(177, 177, 177);
+}
+
+.pagefinal{
+    height: 120%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    top: 5%;
+    height: 80%;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cokelogoend{
+    margin-top: 5%;
+}
+
+.contents{
+   margin-top: 5%;
+   display: flex;
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.contents li{
+    list-style: none;
+}
+
+.help{
+    margin-right: 7%;
+}
+
+.shopnvisit{
+    margin-right: 7%;
+}
+
+.legal h4{
+   margin-bottom: 2%;  
+}
+
+.help h4{
+   margin-bottom: 10%;  
+}
+
+.shopnvisit h4{
+  margin-bottom: 3%;
+}  
+
+.logosend{
+    margin-left: 10%;
+    font-size: 10px;
+}
+
+.copyright{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15%;
+    margin-left: 65%;
+}
+
+.marginlineend{
+    height: 1px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
